@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E3AF8F9239F23A50097D639 /* AppIconGift@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3AF8F8239F23A40097D639 /* AppIconGift@3x.png */; };
+		9E3AF8FB239F23AE0097D639 /* AppIconGift@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3AF8FA239F23AE0097D639 /* AppIconGift@2x.png */; };
+		9E3AF8FE239F28600097D639 /* AppIconSnowman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3AF8FC239F28600097D639 /* AppIconSnowman@2x.png */; };
+		9E3AF8FF239F28600097D639 /* AppIconSnowman@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3AF8FD239F28600097D639 /* AppIconSnowman@3x.png */; };
 		9EC83599239E0BD000E7FBF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC83598239E0BD000E7FBF8 /* AppDelegate.swift */; };
 		9EC8359B239E0BD000E7FBF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC8359A239E0BD000E7FBF8 /* SceneDelegate.swift */; };
 		9EC8359D239E0BD000E7FBF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC8359C239E0BD000E7FBF8 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E3AF8F8239F23A40097D639 /* AppIconGift@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconGift@3x.png"; sourceTree = "<group>"; };
+		9E3AF8FA239F23AE0097D639 /* AppIconGift@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconGift@2x.png"; sourceTree = "<group>"; };
+		9E3AF8FC239F28600097D639 /* AppIconSnowman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconSnowman@2x.png"; sourceTree = "<group>"; };
+		9E3AF8FD239F28600097D639 /* AppIconSnowman@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconSnowman@3x.png"; sourceTree = "<group>"; };
 		9EC83595239E0BD000E7FBF8 /* DynamicAppIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicAppIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC83598239E0BD000E7FBF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC8359A239E0BD000E7FBF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E3AF8F1239F22AB0097D639 /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				9E3AF8FC239F28600097D639 /* AppIconSnowman@2x.png */,
+				9E3AF8FD239F28600097D639 /* AppIconSnowman@3x.png */,
+				9E3AF8F8239F23A40097D639 /* AppIconGift@3x.png */,
+				9E3AF8FA239F23AE0097D639 /* AppIconGift@2x.png */,
+			);
+			path = AppIcon;
+			sourceTree = "<group>";
+		};
 		9EC8358C239E0BD000E7FBF8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +75,7 @@
 		9EC83597239E0BD000E7FBF8 /* DynamicAppIcon */ = {
 			isa = PBXGroup;
 			children = (
+				9E3AF8F1239F22AB0097D639 /* AppIcon */,
 				9EC83598239E0BD000E7FBF8 /* AppDelegate.swift */,
 				9EC8359A239E0BD000E7FBF8 /* SceneDelegate.swift */,
 				9EC8359C239E0BD000E7FBF8 /* ViewController.swift */,
@@ -125,8 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3AF8FF239F28600097D639 /* AppIconSnowman@3x.png in Resources */,
 				9EC835A5239E0BD500E7FBF8 /* LaunchScreen.storyboard in Resources */,
+				9E3AF8FB239F23AE0097D639 /* AppIconGift@2x.png in Resources */,
 				9EC835A2239E0BD500E7FBF8 /* Assets.xcassets in Resources */,
+				9E3AF8FE239F28600097D639 /* AppIconSnowman@2x.png in Resources */,
+				9E3AF8F9239F23A50097D639 /* AppIconGift@3x.png in Resources */,
 				9EC835A0239E0BD000E7FBF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

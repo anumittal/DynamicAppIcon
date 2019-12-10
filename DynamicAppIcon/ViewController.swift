@@ -9,12 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBAction func changeAppButtonTapped(_ sender: Any) {
+        if UIApplication.shared.alternateIconName == nil {
+            UIApplication.shared.setAlternateIconName("AppIcon-2")
+        } else {
+            UIApplication.shared.setAlternateIconName(nil)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
     }
-
-
 }
 
